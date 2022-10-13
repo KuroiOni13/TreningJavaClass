@@ -11,7 +11,7 @@ public class Program1 {
         mybox.depth = 20;
         mybox.width = 15;
         vol = mybox.depth * mybox.height * mybox.width;
-        System.out.println( "Объем равен " + vol );
+        System.out.println( "Vol is " + vol );
 
 
 >>>>>>> c2123b1 (Newbox)
