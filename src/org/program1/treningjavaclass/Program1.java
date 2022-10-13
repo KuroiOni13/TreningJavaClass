@@ -3,5 +3,17 @@ package org.program1.treningjavaclass;
 public class Program1 {
     public static void main(String[] args) {
         System.out.println("WorkingTest");
+<<<<<<< HEAD
+=======
+        Box mybox = new Box();
+        double vol;
+        mybox.height = 10;
+        mybox.depth = 20;
+        mybox.width = 15;
+        vol = mybox.depth * mybox.height * mybox.width;
+        System.out.println( "Объем равен " + vol );
+
+
+>>>>>>> c2123b1 (Newbox)
     }
 }
